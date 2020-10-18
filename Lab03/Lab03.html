@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta content="text/html; charset=utf-8">
+    <title>Lab03</title>
+    <link type="text/css" rel="stylesheet" href="./Lab03.css" />
+</head>
+
+<body>
+    <form action="/action_page.php" id="form" method="post">
+        <div>
+            <label class="HangMoi" for="HoTen">Họ tên: </label>
+            <input type="text" id="hoten" name="hoten" class="TruongBatBuoc" />
+            <span id="loi_hoten" class="Baoloi"></span>
+            <br/>
+        </div>
+
+        <!-- trường không bắt buộc -->
+        <div>
+            <label class="HangMoi" for="DiaChi">Địa chỉ: </label>
+            <input type="text" id="diachi" name="diachi" />
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">Giới tính:</label>
+
+            <input type="radio" id="nam" name="gender" />
+            <label for="Nam">Nam</label>
+            <input type="radio" id="nu" name="gender" />
+            <label for="Nu">Nữ</label>
+            <br/>
+        </div>
+        <!--             
+                <label class="radio-container">
+					<input type="radio" id="nam" name="gioitinh" checked="checked"/> Nam
+					<span class="checkmark"></span>
+					<span class="checkmark2"></span>
+				</label>
+
+				<label class="radio-container">
+					<input type="radio" id="nu" name="gioitinh"/> Nữ
+					<span class="checkmark"></span>
+					<span class="checkmark2"></span>
+				</label>
+				<br/> -->
+
+        <div>
+            <label class="HangMoi" for="ngaysinh">Ngày sinh:</label>
+            <input type="text" id="ngaysinh" name="ngaysinh" placeholder="nn/tt/nnnn" class="TruongBatBuoc" />
+            <span id="loi_ngaysinh" class="Baoloi"></span>
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi" for="email">E-mail:</label>
+            <input type="text" id="email" name="email" class="TruongBatBuoc" />
+            <span id="loi_email" class="Baoloi"></span>
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi" for="dienthoai">Điện thoại:</label>
+            <input type="text" id="dienthoai" name="dienthoai" />
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">Khóa đăng ký:</label>
+
+            <input type="checkbox" id="English" name="subject" />
+            <label for="English">Tiếng Anh</label>
+            <input type="checkbox" id="governance" name="subject" />
+            <label for="governance">Quản trị</label>
+            <input type="checkbox" id="IT" name="subject" />
+            <label for="IT">CNTT</label>
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">Tên sử dụng: </label>
+            <input type="text" id="username" name="username" class="TruongBatBuoc" onkeyup="javascript:DoKeyup(event,this,'pass');" />
+            <span id="loi_username" class="Baoloi"></span>
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">Mật khẩu: </label>
+            <input type="password" id="pass" name="pass" class="TruongBatBuoc" onkeyup="javascript:DoKeyup(event,this,'repass');" />
+            <span id="loi_pass" class="Baoloi"></span>
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">Gõ lại mật khẩu: </label>
+            <input type="password" id="repass" name="repass" class="TruongBatBuoc" onkeyup="javascript:DoKeyup(event,this,'ghichu');" />
+            <span id="loi_repass" class="Baoloi"></span>
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">Ghi chú: </label>
+            <textarea id="ghichu" name="ghichu"></textarea>
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">Ảnh chân dung: </label>
+            <input type="file" name="file" id="file" />
+            <br/>
+        </div>
+
+        <div>
+            <label class="HangMoi">&nbsp;</label>
+            <input type="button" onclick="javascript:Chapnhan();" value="Chấp nhận" />
+            <input type="button" onclick="javascript:Boqua();" value="Bỏ qua" />
+        </div>
+    </form>
+
+    <script type="text/javascript" src="./Lab03.js"></script>
+</body>
+
+</html>

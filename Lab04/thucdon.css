@@ -1,0 +1,60 @@
+td {
+    font-family: arial;
+    font-size: 13px;
+    cursor:pointer; 
+    color:#1b1bec;
+}
+.newRow {
+    background-color:#dee3e7;
+    
+    border-top: #f7f7f7 1px solid;
+    border-left: #f7f7f7 1px solid;
+    border-right: #e5e6e7 1px solid;
+    border-bottom: #e5e6e7 1px solid;
+    
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    
+    font-size: 13px;
+    font-family: verdana;
+    color: #1c1d1d;
+    cursor:pointer;
+}
+.newRowHover {
+    background-color: #f7fafd;
+    
+    border-top: #f7f7f7 1px solid;
+    border-left: #f7f7f7 1px solid;
+    border-right: #e5e6e7 1px solid;
+    border-bottom: #e5e6e7 1px solid;
+    
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    
+    font-size: 13px;
+    font-family: verdana;
+    color: #242525;   
+    cursor:pointer;
+}
+.newRowSelect {
+    background-color: #17fcfc;
+    
+    border-top: #fefefe 1px solid;
+    border-left: #fefefe 1px solid;
+    border-right: #c3c8cb 1px solid;
+    border-bottom: #c3c8cb 1px solid;
+    
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    
+    font-size: 13px;
+    font-family: verdana;
+    color: #242525;   
+    cursor:pointer;
+}

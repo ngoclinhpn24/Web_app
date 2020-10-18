@@ -1,0 +1,33 @@
+div.image1 img {
+    width: 100%;
+}
+
+div.page {
+    max-width: 60%;
+    color: black;
+    margin: 40px auto;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+div.page p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+div.page h1 {
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+}
+
+div.page div.image2 {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+div.source {
+    color: rgb(138, 138, 138);
+    font-size: small;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
